@@ -14,4 +14,4 @@ public class Application {
         obj3.setX(obj2); // sets item in smallbag to an integer
         System.out.println(obj3); // supposed to print out the integer
     }
-} // test commit
+} // test commit. I am testing to see if commit is working
