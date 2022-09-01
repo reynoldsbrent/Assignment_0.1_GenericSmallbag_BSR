@@ -1,8 +1,12 @@
 public class Item <T>{
     private T e;
 
-    Item(){
-// testing commit 
+    public Item(){
+    	this.e = null;
+    }
+    
+    public Item(T e) {
+    	this.e = e;
     }
 
     public void setE (T e){ // takes in type T
@@ -11,5 +15,9 @@ public class Item <T>{
     public T getE(){ //returns type T
         return e;
     }
-// I am testing to see if commit is working
+
+	@Override
+	public String toString() {
+		return "Item [e=" + e + "]";
+	}
 }

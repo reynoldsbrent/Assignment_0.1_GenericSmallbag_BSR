@@ -1,6 +1,13 @@
 public class SmallBag <E>{
-    E x;
+   public E x;
+   
+  public SmallBag(){
+	   this.x = null;
+   }
 
+  public SmallBag(E x) {
+	  this.x = x;
+  }
     //setter for Smallbag takes in type E
     public void setX(E x){
         this.x = x;
@@ -10,5 +17,9 @@ public class SmallBag <E>{
     public E getX (){
         return x;
     }
+
+	@Override
+	public String toString() {
+		return "SmallBag [x=" + x + "]";
+	}
 }
-// this is testing commit. I am testing to see if commit is working
