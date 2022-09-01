@@ -9,9 +9,9 @@ public class Application {
         SmallBag<Item> obj3 = new SmallBag<>();  // Instantiates a smallbag of type item
 
         obj3.setX(obj); // sets item in smallbag to my name
-        System.out.println(obj3.getX()); // supposed to print out my name
+        System.out.println(obj3); // supposed to print out my name
 
         obj3.setX(obj2); // sets item in smallbag to an integer
         System.out.println(obj3); // supposed to print out the integer
     }
-}
+} // test commit
