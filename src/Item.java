@@ -5,10 +5,10 @@ public class Item <T>{
 
     }
 
-    public void setE (T e){
+    public void setE (T e){ // takes in type T
         this.e = e;
     }
-    public T getE(){
+    public T getE(){ //returns type T
         return e;
     }
 

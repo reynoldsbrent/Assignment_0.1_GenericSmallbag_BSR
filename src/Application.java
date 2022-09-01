@@ -1,17 +1,17 @@
 public class Application {
     public static void main(String[] args) {
 
-        Item<String> obj = new Item<>();
-        obj.setE("Brent");
-        Item<Integer> obj2 = new Item<>();
-        obj2.setE(1);
+        Item<String> obj = new Item<>(); // Instantiates new item
+        obj.setE("Brent");  // sets new item to my name
+        Item<Integer> obj2 = new Item<>(); // instantiates another item
+        obj2.setE(1); // sets item to an integer
 
-        SmallBag<Item> obj3 = new SmallBag<>();
+        SmallBag<Item> obj3 = new SmallBag<>();  // Instantiates a smallbag of type item
 
-        obj3.setX(obj);
-        System.out.println(obj3.getX());
+        obj3.setX(obj); // sets item in smallbag to my name
+        System.out.println(obj3.getX()); // supposed to print out my name
 
-        obj3.setX(obj2);
-        System.out.println(obj3.getX());
+        obj3.setX(obj2); // sets item in smallbag to an integer
+        System.out.println(obj3); // supposed to print out the integer
     }
 }
