@@ -1,5 +1,5 @@
 /**
- * This class allows the user to create new items, set the names of the items, and retrive the names of the items
+ * This class allows the user to create new items, set the names of the items, and retrieve the names of the items
  * @author brentreynolds
  * @version 9/2/22 Fall 2022
  * @param <T>
@@ -29,14 +29,14 @@ public class Item <T>{
     /**
      * @param e the value of e as sent into this method
      */
-    public void setE (T e){ // takes in type T
+    public void setE (T e){ 
         this.e = e;
     } //end setE
     
     /**
      * @return the current value of e
      */
-    public T getE(){ //returns type T
+    public T getE(){ 
         return e;
     } // end getE
 }

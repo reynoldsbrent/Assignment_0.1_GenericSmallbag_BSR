@@ -1,5 +1,5 @@
 /**
- * This class contains the main method. It calls the methods from the Item class and SmallBag class add items to the 
+ * This class contains the main method. It calls the methods from the Item class and SmallBag class 
  * @author brentreynolds
  * @version 9/2/22 Fall 2022
  */
@@ -20,9 +20,9 @@ public class Application {
         System.out.println(stringSmallbag.getX()); //prints out my name
        
 
-       SmallBag<Integer> numberSmallbag = new SmallBag<>(1);
+       SmallBag<Integer> numberSmallbag = new SmallBag<>(1); // Instantiates a Smallbag of type Integer
        
-       System.out.println(numberSmallbag.getX());
+       System.out.println(numberSmallbag.getX()); // prints out the number
        
     }
 } 
