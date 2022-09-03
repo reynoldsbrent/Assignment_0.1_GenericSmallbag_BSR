@@ -17,7 +17,7 @@ public class Application {
 
         SmallBag<String> stringSmallbag = new SmallBag<>("Brent Reynolds");  // Instantiates a Smallbag of type String
 
-        System.out.println(stringSmallbag.getX()); //prints out my name in Smallbag
+        System.out.println(stringSmallbag.getX()); //prints out my name
        
 
        SmallBag<Integer> numberSmallbag = new SmallBag<>(1);
