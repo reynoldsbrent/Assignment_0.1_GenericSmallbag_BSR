@@ -1,21 +1,28 @@
+/**
+ * This class contains the main method. It calls the methods from the Item class and SmallBag class add items to the 
+ * @author brentreynolds
+ * @version 9/2/22 Fall 2022
+ */
 public class Application {
     public static void main(String[] args) {
 
-        Item<String> obj = new Item<>("Brent"); // Instantiates new item
-        //obj.setE("Brent");  // sets new item to my name
-        Item<Integer> obj2 = new Item<>(1); // instantiates another item
-        System.out.println(obj2);
-        System.out.println(obj);
-        //obj2.setE(1); // sets item to an integer
-
-        SmallBag<String> obj3 = new SmallBag<>("Brent Reynolds");  // Instantiates a Smallbag of type String
-
+        Item<String> stringItem = new Item<>("Brent Reynolds"); // Instantiates string item
         
-        System.out.println(obj3); //prints out my name
+        Item<Integer> numberItem = new Item<>(1); // instantiates number item
+        
+        //System.out.println(obj2.getE());
+        
+       // System.out.println(stringItem.getE());
+        
+
+        SmallBag<String> stringSmallbag = new SmallBag<>("Brent Reynolds");  // Instantiates a Smallbag of type String
+
+        System.out.println(stringSmallbag.getX()); //prints out my name in Smallbag
        
 
-       SmallBag<Integer> obj4 = new SmallBag<>(1);
-       System.out.println(obj4);
+       SmallBag<Integer> numberSmallbag = new SmallBag<>(1);
+       
+       System.out.println(numberSmallbag.getX());
        
     }
 } 
